@@ -89,19 +89,19 @@ const parent = {
   name: "Susan",
   age: 70,
   speak: function(){
-    return "My name is Susan"
+    return `My name is ${this.name}`
   },
   child: {
     name: "George",
     age: 50,
     speak: function(){
-      return "My name is George"
+      return `My name is ${this.name}`
     },
     child: {
       name: "Sam",
       age: 30,
       speak: function(){
-        return "My name is Sam"
+        return `My name is ${this.name}`
       }
     }
   }
